@@ -9,6 +9,7 @@ targets:
       - which
       - epel-release
       - imlib2
+      - newt
       - shared-mime-info
     build_dependencies:
       - https://download.fedoraproject.org/pub/epel/7/x86_64/Packages/i/imlib2-1.4.9-8.el7.x86_64.rpm
@@ -20,6 +21,7 @@ targets:
       - which
       - epel-release
       - imlib2
+      - newt
       - shared-mime-info
     build_dependencies:
       - https://download.fedoraproject.org/pub/epel/8/Everything/x86_64/Packages/i/imlib2-1.4.9-8.el8.x86_64.rpm
@@ -30,6 +32,7 @@ targets:
       - curl
       - libimlib2
       - shared-mime-info
+      - whiptail
     build_dependencies:
       - libimlib2
       - libimlib2-dev
@@ -39,15 +42,18 @@ targets:
       - curl
       - libimlib2
       - shared-mime-info
+      - whiptail
     build_dependencies:
       - libimlib2
       - libimlib2-dev
       - shared-mime-info
+      - whiptail
   ubuntu-16.04:
     dependencies:
       - curl
       - libimlib2
       - shared-mime-info
+      - whiptail
     build_dependencies:
       - libimlib2
       - libimlib2-dev
@@ -57,6 +63,7 @@ targets:
       - curl
       - libimlib2
       - shared-mime-info
+      - whiptail
     build_dependencies:
       - libimlib2
       - libimlib2-dev
@@ -66,6 +73,7 @@ targets:
       - curl
       - libimlib2
       - shared-mime-info
+      - whiptail
     build_dependencies:
       - libimlib2
       - libimlib2-dev
@@ -75,6 +83,7 @@ targets:
       - curl
       - libimlib2
       - shared-mime-info
+      - whiptail
     build_dependencies:
       - libimlib2
       - libimlib2-dev
@@ -84,6 +93,7 @@ targets:
       - curl
       - libImlib2-1
       - imlib2
+      - newt
     build_dependencies:
       # Add packages required for build that are not in the official SLES repo.
       # Direct URLs must be used since we cannot add repos on packager.io
@@ -98,6 +108,7 @@ targets:
       - curl
       - libImlib2-1
       - imlib2
+      - newt
       - shared-mime-info
     build_dependencies:
       # Add packages required for build that are not in the official SLES repo.
