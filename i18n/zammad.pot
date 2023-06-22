@@ -8395,6 +8395,7 @@ msgstr ""
 msgid "Position"
 msgstr ""
 
+#: app/assets/javascripts/app/controllers/_application_controller/_modal_generic_history.coffee
 #: app/assets/javascripts/app/controllers/_channel/_email_filter.coffee
 msgid "Postmaster Filter"
 msgstr ""
@@ -9183,6 +9184,7 @@ msgstr ""
 msgid "Scheduled for"
 msgstr ""
 
+#: app/assets/javascripts/app/controllers/_application_controller/_modal_generic_history.coffee
 #: app/assets/javascripts/app/controllers/job.coffee
 #: db/seeds/permissions.rb
 msgid "Scheduler"
@@ -10136,6 +10138,7 @@ msgstr ""
 #: app/assets/javascripts/app/controllers/_manage/system.coffee
 #: app/assets/javascripts/app/controllers/_manage/ticket_duplicate_detection.coffee
 #: app/assets/javascripts/app/controllers/manage.coffee
+#: app/assets/javascripts/app/views/generic/history.jst.eco
 #: db/seeds/permissions.rb
 #: db/seeds/ticket_article_senders.rb
 msgid "System"
