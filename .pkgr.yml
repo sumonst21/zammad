@@ -30,6 +30,7 @@ targets:
   debian-10:
     dependencies:
       - curl
+      - gnupg2
       - libimlib2
       - shared-mime-info
       - whiptail
@@ -40,6 +41,7 @@ targets:
   debian-11:
     dependencies:
       - curl
+      - gnupg2
       - libimlib2
       - shared-mime-info
       - whiptail
@@ -51,6 +53,7 @@ targets:
   ubuntu-16.04:
     dependencies:
       - curl
+      - gnupg2
       - libimlib2
       - shared-mime-info
       - whiptail
@@ -61,6 +64,7 @@ targets:
   ubuntu-18.04:
     dependencies:
       - curl
+      - gnupg2
       - libimlib2
       - shared-mime-info
       - whiptail
@@ -71,6 +75,7 @@ targets:
   ubuntu-20.04:
     dependencies:
       - curl
+      - gnupg2
       - libimlib2
       - shared-mime-info
       - whiptail
@@ -81,6 +86,7 @@ targets:
   ubuntu-22.04:
     dependencies:
       - curl
+      - gnupg2
       - libimlib2
       - shared-mime-info
       - whiptail
