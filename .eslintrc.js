@@ -64,7 +64,10 @@ module.exports = {
         zones: [
           {
             target: './app/frontend/shared',
-            from: './app/frontend/apps',
+            from: './app/frontend/apps/**',
+            except: ['**/__tests__/**'],
+            message:
+              'Importing app-specific files in shared context is not allowed.',
           },
         ],
       },
